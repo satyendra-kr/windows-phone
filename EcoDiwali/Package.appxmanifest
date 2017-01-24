@@ -1,52 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-
-  <Identity Name="9379cf20-a4cf-44c9-be5b-e187f6922c7f"
-            Publisher="CN=satyendra"
-            Version="1.0.0.0" />
-
-  <mp:PhoneIdentity PhoneProductId="653f69a9-ef79-4f23-a0b2-907313e8ba38" PhonePublisherId="f088e13c-c48e-40c0-a303-4a6941e7fb70"/>
-
+  <Identity Name="9379cf20-a4cf-44c9-be5b-e187f6922c7f" Publisher="CN=satyendra" Version="1.0.0.1" />
+  <mp:PhoneIdentity PhoneProductId="653f69a9-ef79-4f23-a0b2-907313e8ba38" PhonePublisherId="f088e13c-c48e-40c0-a303-4a6941e7fb70" />
   <Properties>
     <DisplayName>EcoDiwali</DisplayName>
     <PublisherDisplayName>satyendra</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.3.1</OSMinVersion>
     <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="x653f69a9yef79y4f23ya0b2y907313e8ba38x"
-        Executable="AGHost.exe"
-        EntryPoint="MainPage.xaml">
-      <m3:VisualElements
-          DisplayName="EcoDiwali"
-          Square150x150Logo="Assets\SquareTile150x150.png"
-          Square44x44Logo="Assets\Logo.png"
-          Description="EcoDiwali"
-          ForegroundText="light"
-          BackgroundColor="#464646">
-        <m3:DefaultTile Square71x71Logo="Assets\SquareTile71x71.png"/>
+    <Application Id="x653f69a9yef79y4f23ya0b2y907313e8ba38x" Executable="AGHost.exe" EntryPoint="MainPage.xaml">
+      <m3:VisualElements DisplayName="EcoDiwali" Square150x150Logo="Assets\SquareTile150x150.png" Square44x44Logo="Assets\Logo.png" Description="EcoDiwali" ForegroundText="light" BackgroundColor="#464646">
+        <m3:DefaultTile Square71x71Logo="Assets\SquareTile71x71.png">
+        </m3:DefaultTile>
         <m3:SplashScreen Image="Assets\Splashscreen.png" />
       </m3:VisualElements>
       <Extensions>
         <Extension Category="windows.backgroundTasks" EntryPoint="AgHost.BackgroundTask">
           <BackgroundTasks>
-          <Task Type="systemEvent" />
+            <Task Type="systemEvent" />
           </BackgroundTasks>
         </Extension>
       </Extensions>
     </Application>
   </Applications>
-  <Capabilities>
-  </Capabilities>
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
