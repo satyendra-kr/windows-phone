@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{653F69A9-EF79-4F23-A0B2-907313E8BA38}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EcoDiwali</RootNamespace>
+    <AssemblyName>EcoDiwali</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <SilverlightVersion>
+    </SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>EcoDiwali_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>EcoDiwali.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <TargetFrameworkProfile />
+    <DefaultLanguage>en-US</DefaultLanguage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Aboutus.xaml.cs">
+      <DependentUpon>Aboutus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Aboutus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\about us.png" />
+    <Content Include="Assets\AppBar\back.png" />
+    <Content Include="Assets\AppBar\next.png" />
+    <Content Include="Assets\BadgeLogo.png" />
+    <Content Include="Assets\Images\aboutus_icon.png" />
+    <Content Include="Assets\Images\chakari- bg.png" />
+    <Content Include="Assets\Images\Crackers\annar.png" />
+    <Content Include="Assets\Images\Crackers\bomb.png" />
+    <Content Include="Assets\Images\Crackers\chakri.png" />
+    <Content Include="Assets\Images\Crackers\fuljhari.png" />
+    <Content Include="Assets\Images\Crackers\mirchi.png" />
+    <Content Include="Assets\Images\Crackers\rocket.png" />
+    <Content Include="Assets\Images\fireSprite\anar %281%29.png" />
+    <Content Include="Assets\Images\fireSprite\anar %2810%29.png" />
+    <Content Include="Assets\Images\fireSprite\anar %282%29.png" />
+    <Content Include="Assets\Images\fireSprite\anar %283%29.png" />
+    <Content Include="Assets\Images\fireSprite\anar %284%29.png" />
+    <Content Include="Assets\Images\fireSprite\anar %285%29.png" />
+    <Content Include="Assets\Images\fireSprite\anar %286%29.png" />
+    <Content Include="Assets\Images\fireSprite\anar %287%29.png" />
+    <Content Include="Assets\Images\fireSprite\anar %288%29.png" />
+    <Content Include="Assets\Images\fireSprite\anar %289%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %281%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %2810%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %282%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %283%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %284%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %285%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %286%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %287%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %288%29.png" />
+    <Content Include="Assets\Images\fireSprite\bomb %289%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %281%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %2810%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %282%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %283%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %284%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %285%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %286%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %287%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %288%29.png" />
+    <Content Include="Assets\Images\fireSprite\chakri %289%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %281%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %2810%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %282%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %283%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %284%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %285%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %286%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %287%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %288%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire %289%29.png" />
+    <Content Include="Assets\Images\fireSprite\fire0.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %281%29.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %2810%29.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %282%29.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %283%29.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %284%29.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %285%29.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %286%29.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %287%29.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %288%29.png" />
+    <Content Include="Assets\Images\fireSprite\fooljhari %289%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %281%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %2810%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %282%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %283%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %284%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %285%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %286%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %287%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %288%29.png" />
+    <Content Include="Assets\Images\fireSprite\Mirchi %289%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %281%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %2810%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %282%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %283%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %284%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %285%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %286%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %287%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %288%29.png" />
+    <Content Include="Assets\Images\fireSprite\rocket1 %289%29.png" />
+    <Content Include="Assets\Images\spark.png" />
+    <Content Include="Assets\Images\splash_0000_Start.png" />
+    <Content Include="Assets\Images\splash_0001_Layer-4.png" />
+    <Content Include="Assets\Images\splash_0002_Layer-5.png" />
+    <Content Include="Assets\Images\splash_0003_Layer-2.png" />
+    <Content Include="Assets\Images\splash_0004_Layer-6-copy-2.png" />
+    <Content Include="Assets\Images\splash_0005_Layer-6.png" />
+    <Content Include="Assets\Images\splash_0006_Layer-1.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\sound\008597353_prev.mp3" />
+    <Content Include="Assets\sound\19399^fireworks.AIF.mp3" />
+    <Content Include="Assets\sound\394213_SOUNDDOGS__sp.mp3" />
+    <Content Include="Assets\sound\explosion-01.mp3" />
+    <Content Include="Assets\sound\firecrackers-03.wav" />
+    <Content Include="Assets\sound\rocket.mp3" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SquareTile150x150.png" />
+    <Content Include="Assets\SquareTile71x71.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\trans.png" />
+    <Content Include="Assets\WideLogo.png" />
+    <Content Include="DefaultLockScreen.jpg" />
+    <Content Include="icon -100.png" />
+    <Content Include="icon -159.png" />
+    <Content Include="icon -336.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icon-100.png" />
+    <Content Include="icon-336.png" />
+    <Content Include="icon-691.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Tiles\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

@@ -1,0 +1,1637 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="EcoDiwali.Page1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+	<phone:PhoneApplicationPage.Resources>
+		<Storyboard x:Name="Storyboard_alubomb">
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire10">
+				<DiscreteObjectKeyFrame KeyTime="0">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire9">
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire8">
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire7">
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire6">
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire5">
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire4">
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire3">
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire2">
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="fire1">
+				<DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Visible</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+				<DiscreteObjectKeyFrame KeyTime="0:0:1">
+					<DiscreteObjectKeyFrame.Value>
+						<Visibility>Collapsed</Visibility>
+					</DiscreteObjectKeyFrame.Value>
+				</DiscreteObjectKeyFrame>
+			</ObjectAnimationUsingKeyFrames>
+			<DoubleAnimation Duration="0:0:1.5" To="10" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="fire0" d:IsOptimized="True"/>
+		</Storyboard>
+        <Storyboard x:Name="Storyboard_chakri" SpeedRatio="0.7" AutoReverse="True" RepeatBehavior="3x">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri10">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri9">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri8">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri7">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri6">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri5">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri4">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri3">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri2">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="chakri1">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_rocket">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket10">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket9">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket8">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket7">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket6">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket5">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket4">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket3">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket2">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rocket1">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="0:0:1.2" To="10" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="rocket0" d:IsOptimized="True"/>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_mirchi" RepeatBehavior="5x">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi10">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi9">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi8">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi7">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi6">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi5">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi4">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi3">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi2">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi1">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_mirchi1" RepeatBehavior="5x" SpeedRatio="2">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi110">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi19">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi18">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi17">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi16">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi15">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi14">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.2">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi13">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.2">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi12">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.4">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi11">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.4">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.5">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_mirchi2" RepeatBehavior="5x" SpeedRatio="2">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi210">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi29">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.2">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi28">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.2">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi27">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.4">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi26">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.4">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.5">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi25">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.5">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.6">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi24">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.6">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.7">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi23">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.7">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.8">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi22">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.8">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.9">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mirchi21">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.9">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:2">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_jubli" RepeatBehavior="10x">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli10">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli9">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli8">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli7">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli6">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli5">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli4">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli3">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli2">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli1">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_jubli1" RepeatBehavior="10x">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli101">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli91">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli81">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli71">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli61">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli51">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.5">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli41">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli31">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli21">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="jubli11">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.9">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_anar">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar10">
+                <DiscreteObjectKeyFrame KeyTime="0">
+                    <DiscreteObjectKeyFrame.Value>
+                		<Visibility>Visible</Visibility>
+                	</DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar9">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar8">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar7">
+                <DiscreteObjectKeyFrame KeyTime="0">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.5">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.9">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:2.1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:2.4">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:2.7">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar6">
+                <DiscreteObjectKeyFrame KeyTime="0">
+            		<DiscreteObjectKeyFrame.Value>
+                		<Visibility>Collapsed</Visibility>
+                	</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.4">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.6">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.7">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:0.8">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.6">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:1.9">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:2.2">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:2.5">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:2.8">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar5">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.1">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.2">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar4">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.2">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.7">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar3">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.3">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.4">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar2">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.4">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.5">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="anar1">
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.5">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Visible</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            	<DiscreteObjectKeyFrame KeyTime="0:0:3.6">
+            		<DiscreteObjectKeyFrame.Value>
+            			<Visibility>Collapsed</Visibility>
+            		</DiscreteObjectKeyFrame.Value>
+            	</DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_bombSpark" RepeatBehavior="3x" SpeedRatio="2">
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="spark">
+        		<EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.5"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+        	</DoubleAnimationUsingKeyFrames>
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="spark">
+        		<EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+        	</DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_bombSpark_chakri" RepeatBehavior="3x" SpeedRatio="2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="spark_chakri">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="spark_chakri">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_bombSpark_phuljhari" RepeatBehavior="3x" SpeedRatio="2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="spark_phuljhari">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="spark_phuljhari">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_bombSpark_phuljhari1" RepeatBehavior="3x" SpeedRatio="2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="spark_phuljhari1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="spark_phuljhari1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_bombSpark_rocket" RepeatBehavior="3x" SpeedRatio="2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="spark_rocket">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="spark_rocket">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_bombSpark_anar" RepeatBehavior="3x" SpeedRatio="2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="spark_anar">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="spark_anar">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_bombSpark_mirchi" RepeatBehavior="3x" SpeedRatio="2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="spark_mirchi">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="spark_mirchi">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/splash_0006_Layer-1.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="Bomb_alu" HorizontalAlignment="Center" Height="274" Grid.RowSpan="2" VerticalAlignment="Bottom" Width="210" Source="/Assets/Images/Crackers/bomb.png" Margin="134,0,136,81" Tap="Bomb_alu_Tap_1" Visibility="Visible"/>
+        <Image x:Name="Bomb_anar" HorizontalAlignment="Center" Height="373" Grid.RowSpan="2" VerticalAlignment="Bottom" Width="339" Source="/Assets/Images/Crackers/annar.png" Margin="45,0,38,74"  Tap="Bomb_anar_Tap_1" Visibility="Collapsed"/>
+        <Image x:Name="Bomb_chakri" HorizontalAlignment="Center" Height="325" Grid.RowSpan="2" VerticalAlignment="Center" Width="325" Source="/Assets/Images/Crackers/chakri.png" Tap="Bomb_chakri_Tap_1" Visibility="Collapsed"/>
+        <Image x:Name="Bomb_jubli" HorizontalAlignment="Center" Height="533" Grid.RowSpan="2" VerticalAlignment="Bottom" Width="152" Source="/Assets/Images/Crackers/fuljhari.png" Margin="164,0,164,74" Tap="Bomb_jubli_Tap_1" Visibility="Collapsed"/>
+        <Image x:Name="Bomb_rocket" HorizontalAlignment="Center" Height="561" Grid.RowSpan="2" VerticalAlignment="Center" Width="129" Source="/Assets/Images/Crackers/rocket.png" Margin="178,165,173,74" Tap="Bomb_rocket_Tap_1" Visibility="Collapsed"/>
+        <Image x:Name="Bomb_mirchi" HorizontalAlignment="Center" Height="213" Grid.RowSpan="2" VerticalAlignment="Center" Width="315" Source="/Assets/Images/Crackers/mirchi.png" Margin="83,528,82,59" Tap="Bomb_mirchi_Tap_1" Visibility="Collapsed"/>
+
+        <Image x:Name="fire1" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (1).png" Visibility="Collapsed"/>
+        <Image x:Name="fire2" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (2).png" Visibility="Collapsed"/>
+        <Image x:Name="fire3" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (3).png" Visibility="Collapsed"/>
+        <Image x:Name="fire4" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (4).png" Visibility="Collapsed"/>
+        <Image x:Name="fire5" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (5).png" Visibility="Collapsed"/>
+        <Image x:Name="fire6" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (6).png" Visibility="Collapsed"/>
+        <Image x:Name="fire7" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (7).png" Visibility="Collapsed"/>
+        <Image x:Name="fire8" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (8).png" Visibility="Collapsed"/>
+        <Image x:Name="fire9" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (9).png" Visibility="Collapsed"/>
+        <Image x:Name="fire10" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/bomb (10).png" Visibility="Collapsed"/>
+        <Image x:Name="fire0" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fire0.png" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+        	<Image.RenderTransform>
+        		<CompositeTransform/>
+        	</Image.RenderTransform>
+        </Image>
+        <Image x:Name="chakri1" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (1).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri2" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (2).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri3" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (3).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri4" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (4).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri5" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (5).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri6" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (6).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri7" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (7).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri8" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (8).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri9" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (9).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri10" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/chakri (10).png" Visibility="Collapsed"/>
+        <Image x:Name="chakri0" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fire0.png" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="rocket1" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (1).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket2" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (2).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket3" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (3).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket4" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (4).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket5" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (5).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket6" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (6).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket7" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (7).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket8" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (8).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket9" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (9).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket10" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/rocket1 (10).png" Visibility="Collapsed"/>
+        <Image x:Name="rocket0" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fire0.png" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="jubli10" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (1).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli9" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (2).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli8" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (3).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli7" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (4).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli6" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (5).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli5" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (6).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli4" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (7).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli3" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (8).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli2" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (9).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli1" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (10).png" Visibility="Collapsed"  Margin="40,10,61,400" />
+        <Image x:Name="jubli0" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fire0.png" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="anar1" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (1).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar2" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (2).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar3" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (3).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar4" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (4).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar5" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (5).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar6" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (6).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar7" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (7).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar8" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (8).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar9" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (9).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar10" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/anar (10).png" Visibility="Collapsed" Margin="-73,-112,-47,312"/>
+        <Image x:Name="anar0" HorizontalAlignment="Center" Height="600" Grid.RowSpan="2" VerticalAlignment="Center" Width="600" Source="/Assets/Images/fireSprite/fire0.png" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="jubli101" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (1).png" Visibility="Collapsed" Margin="110,10,5,400" />
+        <Image x:Name="jubli91" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (2).png" Visibility="Collapsed" Margin="110,10,5,400" />
+        <Image x:Name="jubli81" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (3).png" Visibility="Collapsed" Margin="110,10,5,400" />
+        <Image x:Name="jubli71" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (4).png" Visibility="Collapsed" Margin="110,10,5,400" />
+        <Image x:Name="jubli61" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (5).png" Visibility="Collapsed" Margin="110,10,5,400" />
+        <Image x:Name="jubli51" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (6).png" Visibility="Collapsed" Margin="110,10,5,400" />
+        <Image x:Name="jubli41" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (7).png" Visibility="Collapsed" Margin="110,10,5,400" />
+        <Image x:Name="jubli31" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (8).png" Visibility="Collapsed" Margin="110,10,5,400" />
+        <Image x:Name="jubli21" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (9).png" Visibility="Collapsed" Margin="110,10,5,400" />
+        <Image x:Name="jubli11" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fooljhari (10).png" Visibility="Collapsed" Margin="110,10,5,400"/>
+        <Image x:Name="jubli01" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fire0.png" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="spark" HorizontalAlignment="Center" Height="200" Grid.RowSpan="2" VerticalAlignment="Center" Width="200" Source="/Assets/Images/spark.png" Margin="137,345,143,255" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+        	<Image.RenderTransform>
+        		<CompositeTransform/>
+        	</Image.RenderTransform>
+        </Image>
+        <Image x:Name="spark_chakri" HorizontalAlignment="Center" Height="200" Grid.RowSpan="2" VerticalAlignment="Center" Width="200" Source="/Assets/Images/spark.png" Margin="10,221,270,379" RenderTransformOrigin="0.485,0.455" Visibility="Collapsed">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="spark_anar" HorizontalAlignment="Center" Height="200" Grid.RowSpan="2" VerticalAlignment="Center" Width="200" Source="/Assets/Images/spark.png" Margin="134,265,146,335" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="spark_rocket" HorizontalAlignment="Center" Height="200" Grid.RowSpan="2" VerticalAlignment="Center" Width="200" Source="/Assets/Images/spark.png" Margin="107,255,173,345" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="spark_phuljhari" HorizontalAlignment="Center" Height="200" Grid.RowSpan="2" VerticalAlignment="Center" Width="200" Source="/Assets/Images/spark.png" Margin="114,96,166,494" RenderTransformOrigin="0.493,0.442" Visibility="Collapsed">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="spark_phuljhari1" HorizontalAlignment="Center" Height="200" Grid.RowSpan="2" VerticalAlignment="Center" Width="200" Source="/Assets/Images/spark.png" Margin="168,102,112,498" RenderTransformOrigin="0.507,0.45" Visibility="Collapsed">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="spark_mirchi" HorizontalAlignment="Center" Height="200" Grid.RowSpan="2" VerticalAlignment="Center" Width="200" Source="/Assets/Images/spark.png" Margin="140,471,140,129" RenderTransformOrigin="0.497,0.43" Visibility="Collapsed">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="mirchi10" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (1).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi9" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (2).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi8" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (3).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi7" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (4).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi6" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (5).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi5" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (6).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi4" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (7).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi3" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (8).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi2" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (9).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi1" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (10).png" Visibility="Collapsed"/>
+        <Image x:Name="mirchi0" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fire0.png" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="mirchi110" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (1).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi19" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (2).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi18" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (3).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi17" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (4).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi16" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (5).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi15" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (6).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi14" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (7).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi13" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (8).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi12" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (9).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi11" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (10).png" Visibility="Collapsed" Margin="0,-150,0,0"/>
+        <Image x:Name="mirchi100" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fire0.png" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="mirchi210" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (1).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi29" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (2).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi28" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (3).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi27" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (4).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi26" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (5).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi25" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (6).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi24" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (7).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi23" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (8).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi22" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (9).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi21" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/Mirchi (10).png" Visibility="Collapsed" Margin="0,-300,0,0"/>
+        <Image x:Name="mirchi20" HorizontalAlignment="Center" Height="800" Grid.RowSpan="2" VerticalAlignment="Center" Width="800" Source="/Assets/Images/fireSprite/fire0.png" Visibility="Collapsed" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <MediaElement x:Name="Sound_alu" HorizontalAlignment="Left" Height="0" Grid.RowSpan="2" VerticalAlignment="Top" Width="0" Source="/Assets/sound/explosion-01.mp3" AutoPlay="False"/>
+        <MediaElement x:Name="Sound_rocket" HorizontalAlignment="Left" Height="0" Grid.RowSpan="2" VerticalAlignment="Top" Width="0" Source="/Assets/sound/rocket.mp3" AutoPlay="False"/>
+        <MediaElement x:Name="Sound_sparkle" HorizontalAlignment="Left" Height="0" Grid.RowSpan="2" VerticalAlignment="Top" Width="0" Source="/Assets/sound/394213_SOUNDDOGS__sp.mp3" AutoPlay="False"/>
+        <MediaElement x:Name="Sound_anar" HorizontalAlignment="Left" Height="0" Grid.RowSpan="2" VerticalAlignment="Top" Width="0" Source="/Assets/sound/19399^fireworks.AIF.mp3" AutoPlay="False"/>
+        <MediaElement x:Name="Sound_chakri" HorizontalAlignment="Left" Height="0" Grid.RowSpan="2" VerticalAlignment="Top" Width="0" Source="/Assets/sound/008597353_prev.mp3" AutoPlay="False" MediaEnded="Sound_chakri_MediaEnded_1"/>
+        <MediaElement x:Name="Sound_mirchi" HorizontalAlignment="Left" Height="0" Grid.RowSpan="2" VerticalAlignment="Top" Width="0" Source="/Assets/sound/firecrackers-03.wav" AutoPlay="False" MediaEnded="Sound_mirchi_MediaEnded_1"/>
+
+        <Image x:Name="Trans_image" HorizontalAlignment="Left" Height="800" Grid.RowSpan="2" VerticalAlignment="Top" Width="480" Stretch="Fill" Source="/Assets/trans.png"/>
+
+
+    </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Opacity="0">
+            <shell:ApplicationBarIconButton x:Name="previous" IconUri="/Assets/AppBar/back.png" Text="previous" Click="previous_Click_1"/>
+            <shell:ApplicationBarIconButton x:Name="next" IconUri="/Assets/AppBar/next.png" Text="next" Click="next_Click_1"/>
+            <!--<shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>-->
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>
