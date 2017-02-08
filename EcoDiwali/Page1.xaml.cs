@@ -17,6 +17,7 @@ namespace EcoDiwali
     {
         public Page1()
         {
+            //Initialization
             InitializeComponent();
             Trans_image.Visibility = Visibility.Collapsed;
 
